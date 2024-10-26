@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="woodstyle.css">
+</head>
+
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="#">
+              <img src="https://www.woodlandworldwide.com/headerlogo.svg" alt="Bootstrap" width="40" height="40">
+            </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-success" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled  text-success" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+      </header>
+      <!--cerousel-->
+
+      <main>
+        <section class="cerousel-slide" data-bs-ride="true">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.woodlandworldwide.app/assets/Winter/hero_banner_2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.woodlandworldwide.app/assets/Winter/hero_banner_1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.woodlandworldwide.app/assets/Winter/hero_banner_3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </section>
+          <!--cards-->
+          <section class="py-5  container" >
+            
+            <div class="row g-4 ">
+              <div class="col-lg-4 col-md-6">
+              <div class="card" ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsuhOCk0ObfyyF0QUNEd277_0anZ17mpUWLUYzNkrp_1BVrlsC5N9uH9Doc__AJctIso&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  
+                  <p class="card-text">Best seller</p>
+                  <a href="#" class="btn btn-dark"  data-bs-toggle="modal" data-bs-target="#card1">SHOP NOW</a>
+                </div>
+              </div> 
+              </div>
+              <div class="col-lg-4 col-md-6">
+              <div class="card">
+              <img src="https://lh3.googleusercontent.com/9R8zHz7QroLBCHxwDHTbIdvvknIvNbOfC4dJi6c6mQjhTODXCynZOXsyNrzST1n6Q2YPJtcJ4VlESP9iZI4AqqSlVUJkzA_5Vl3J3pM=w1200-rw " class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  
+                  <p class="card-text">Casuals</p>
+                  <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card2">SHOP NOW</a>
+                </div>
+              </div> 
+              </div>
+              <div class="col-lg-4 col-md-6">
+              <div class="card" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6CzFJW1WT7Bgefr7mbTUMbonJ87b82l2bC8C80rAaxU_Fl8aDqYNEx09L2u3HM6YSvMw&usqp=CAU " class="card-img-top" alt="...">
+                <div class="card-body text- center">
+                  
+                  <p class="card-text">Boots</p>
+                  <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card3">SHOP NOW</a>
+                </div>
+              </div> 
+              </div>
+              </div>
+            </section>
+            <!--cards1-->
+            
+                <section class="py-3 container" >
+                  
+                  <div class="row g-2 ">
+                    <div class="col-lg-4 col-md-6">
+                    <div class="card" ">
+                      <img src="https://pbs.twimg.com/media/GVldmkCXkAEHBxo?format=jpg&name=large " class="card-img-top" alt="...">
+                      <div class="card-body  text-center">
+                        
+                        <h5 class="card-title">Men's Apparel</h5>
+                        
+                        <a href="#" class="btn btn-dark"  data-bs-toggle="modal" data-bs-target="#card1">SHOP NOW</a>
+                      </div>
+                    </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                    <img src="https://pbs.twimg.com/media/GWcsCijWIAEp0uB?format=jpg&name=large " class="card-img-top" alt="...">
+                      <div class="card-body  text-center">
+                        
+                        
+                        <h5 class="card-title">Woman's Apparel</h5>
+                        
+                        <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card2">SHOP NOW</a>
+                      </div>
+                    </div> 
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                    <div class="card" >
+                      <img src="https://pbs.twimg.com/media/GVldmkCXkAEHBxo?format=jpg&name=large" class="card-img-top" alt="...">
+                      <div class="card-body  text-center">
+                        
+                        <h5 class="card-title">Canvass</h5>
+                        
+                        <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card3">SHOP NOW</a>
+                      </div>
+                    </div> 
+                    </div>
+                    </div>
+                  
+              </section>
+              <section>
+                <div class="card text-bg-dark">
+                  <img src="https://images.woodlandworldwide.app/assets/Winter/wdl_shoe_banner.webp" class="card-img" alt="...">
+                  <div class="card-img-overlay text-end">
+                    <a href="#" class="btn btn-success">SHOP NOW</a>
+                  </div>
+                </div>
+                </section>
+                <section>
+                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+                  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                    <div class="card  " style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0IG0AU932A/GREY_BLACK/FGC0IG0AU932A_210_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dubai-khaki slip on shoe</h5>
+                  
+                </div>
+              </div><div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGF0510R3432A/GREY/FGF0510R3432A_021_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Classic woodland camel</h5>
+                  
+                </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0BM027501A/DNAVY/FGC0BM027501A_0.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Olive slipper for men</h5>
+                  
+                </div>
+              </div>
+              </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex   justify-content-around">
+                    <div class="card  " style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0L4018681A/BROWN/FGC0L4018681A_008_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">leisure khaki</h5>
+                  
+                </div>
+              </div>
+              
+              <div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0L4056111G/CAMEL/FGC0L4056111G_010_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">grey/black boot for men</h5>
+                  
+                </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0AA050061A/CAMEL/FGC0AA050061A_010_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Olive green boot for men</h5>
+                  
+                </div>
+              </div>
+                  </div>
+                  </div>
+                 
+                  <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                    <div class="card " style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0H9050081A/NAVY/FGC0H9050081A_030_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dubai khaki -slip on shoe</h5>
+                  
+                </div>
+              </div>
+                      <div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0AA050101A/NAVY/FGC0AA050101A_030_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">classic woodland camel</h5>
+                  
+                </div>
+                      </div>
+                      
+                      <div class="card" style="width: 18rem;">
+                <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0Q6038252A/TURQUOISE/FGC0Q6038252A_634_0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Olive slipper for men</h5>
+                  
+                </div>
+              </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                  
+                  </div>
+                  </section>
+                 <!--card 3-->
+                 <section class="py-5  container" >
+                  <h2 class="text-center mb-4">Featured cards</h2>
+                  <div class="row g-2 ">
+                    <div class="col-lg-6 col-md-6">
+                    <div class="card" ">
+                      <img  style= "width: 100%; height: 100%" src="https://images.woodlandworldwide.app/assets/Winter/Leather_Jacket.webp " class="card-img-top" alt="...">
+                      <div class="card-body">
+                        
+                        <p class="card-text"><b>Shop Men’s Apparel Shop Now</b></p>
+                        <a href="#" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#card1">SHOP NOW</a>
+                      </div>
+                    </div> 
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                    <div class="card">
+                    <img  style= "width: 100%; height: 100%"  src="https://images.woodlandworldwide.app/assets/Winter/Jacket.webp " class="card-img-top" alt="...">
+                      <div class="card-body">
+                        
+                        <p class="card-text"><b>Shop Women’s Apparel Shop Now</b></p>
+                        <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#card2">SHOP NOW</a>
+                      </div>
+                    </div> 
+                    </div>
+                    </div>
+                    </section>
+                    <!-- card 4-->
+                     
+                      <section class="py-5  container" >
+            
+                        <div class="row g-4 ">
+                          <div class="col-lg-3 col-md-6">
+                          <div class="card" ">
+                            <img src="https://images.woodlandworldwide.app/assets/Winter/Leather_Jacket.webp" class="card-img-top" alt="...">
+                            
+                            <div class="card-body text-center">
+                              
+                              <p class="card-text text-start"><b>Leather Jackets</b></p>
+                              
+                              <p class="card-text  text-end">Shop men</p>
+                            </div>
+                          </div> 
+                          </div>
+                          <div class="col-lg-3 col-md-6">
+                          <div class="card">
+                          <img src="https://images.woodlandworldwide.app/assets/Winter/Hoodie.webp " class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              
+                              <p class="card-text text-start"><b>Hoodies</b></p>
+                              <p class="card-text  text-end">Shop men</p>
+                            </div>
+                          </div> 
+                          </div>
+                          <div class="col-lg-3 col-md-6">
+                          <div class="card" >
+                            <img src="https://images.woodlandworldwide.app/assets/Winter/Jacket.webp " class="card-img-top" alt="...">
+                            <div class="card-body text- center">
+                              
+                              <p class="card-text text-start"><b>Winter Jackets</b></p>
+                              <p class="card-text  text-end">Shop men</p>
+                            </div>
+                          </div> 
+                          </div>
+                          <div class="col-lg-3 col-md-6">
+                            <div class="card" >
+                              <img src="https://images.woodlandworldwide.app/assets/Winter/Jeans.webp " class="card-img-top" alt="...">
+                              <div class="card-body text- center">
+                                
+                                <p class="card-text text-start"><b>Jeans</b></p>
+                                <p class="card-text  text-end">Shop men</p>
+                              </div>
+                            </div> 
+                            </div>
+                          </div>
+                        </section>
+                      <section>
+                        
+                        <div class="card text-bg-dark">
+                          <img src="https://images.woodlandworldwide.app/assets/Winter/woodsport_banner.webp" class="card-img" alt="...">
+                          <div class="card-img-overlay">
+                            <button type="button" class="btn btn-success">SHOP NOW</button>
+                            
+                            
+                          </div>
+                        </div>
+                        
+                        </section> 
+                        <!--slide cards-->     
+                        
+                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+                        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="card-wrapper container-sm d-flex  justify-content-around">
+                          <div class="card2  " style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FLC0H40T3272A/PINK/FLC0H40T3272A_117_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Brogue shoes</h5>
+                        
+                      </div>
+                    </div><div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC026041122A/BLACK/FGC026041122A_004_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Platform shoes</h5>
+                        
+                      </div>
+                            </div>
+                            <div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0DN046842A/WHITE/FGC0DN046842A_044_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"> Athletic shoes</h5>
+                        
+                      </div>
+                    </div>
+                    </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="card-wrapper container-sm d-flex   justify-content-around">
+                          <div class="card2 " style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0H40T3262A/OLIVE/FGC0H40T3262A_111_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Brogue shoes</h5>
+                        
+                      </div>
+                    </div><div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0DN060382A/BLACK/FGC0DN060382A_004_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Espadrilles</h5>
+                        
+                      </div>
+                            </div>
+                            <div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0DN046842A/WHITE/FGC0DN046842A_044_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Monk strap shoes</h5>
+                        
+                      </div>
+                    </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="card-wrapper container-sm d-flex  justify-content-around">
+                          <div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FLC0DY0T7822A/PINK/FLC0DY0T7822A_117_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        
+                      </div>
+                    </div>
+                            <div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0510S0112A/NAVY/FGC0510S0112A_030_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title"> Knee-high boots: </h5>
+                        
+                      </div>
+                            </div>
+                            <div class="card2" style="width: 18rem;">
+                      <img src="https://assets.woodlandworldwide.app/compressed/images/FGC0Y9038812A/NAVY/FGC0Y9038812A_030_0.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Wellington boots</h5>
+                        
+                      </div>
+                    </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    </div>
+                    </section>
+                    <section >
+            
+                      <div class="row g-0 ">
+                        <div class="col-lg-4 col-md-6">
+                        <div class="card" ">
+                          <img src="https://redlemon-lifestyle.in/cdn/shop/files/7_770ab22a-8fc0-448a-86e0-884f75367f9f.jpg?v=1695895724" class="card-img-top" alt="...">
+                          <div class="card-body text-center">
+                            
+                            <p class="card-text">Bags</p>
+                            <a href="#" class="btn btn-dark"  data-bs-toggle="modal" data-bs-target="#card1">SHOP NOW</a>
+                          </div>
+                        </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                        <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuN9CO2sFEupXFqyJdAo8lqkNjqfBdksueQ&s " class="card-img-top" alt="...">
+                          <div class="card-body text-center">
+                            
+                            <p class="card-text">Shoes</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card2">SHOP NOW</a>
+                          </div>
+                        </div> 
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                        <div class="card" >
+                          <img src="https://assets.woodlandworldwide.app/compressed/images/AGBT0476361A/BURGANDY/AGBT0476361A_009_0.jpg " class="card-img-top" alt="...">
+                          <div class="card-body text- center">
+                            
+                            <p class="card-text">Belt & More</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#card3">SHOP NOW</a>
+                          </div>
+                        </div> 
+                        </div>
+                        </div>
+                      </section>
+                      <!--card 5-->
+                      <section>
+                      <p class="text-center">AS WORN BY WOODLAND FAM</p>
+                        <p class="text-center">Click to shop & mention us on instagram @woodlandworldwide to be featured</p>
+                        </section>
+                        <section class="py-6  container" >
+            
+                          <div class="row g-5">
+                            <div class="col-lg-3 col-md-6">
+                            <div class="card" ">
+                              <img src="https://woodlandworldwide.com/insta_1.JPG" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                
+                                
+                              </div>
+                            </div> 
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                              <div class="card">
+                              <img src="https://woodlandworldwide.com/insta_5.JPG " class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                  
+                                 
+                                </div>
+                              </div> 
+                              </div>
+                            <div class="col-lg-3 col-md-6">
+                            <div class="card">
+                            <img src="https://woodlandworldwide.com/insta_2.jpeg " class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                
+                               
+                              </div>
+                            </div> 
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6">
+                            <div class="card" >
+                              <img src="https://woodlandworldwide.com/insta_4.JPG " class="card-img-top" alt="...">
+                              <div class="card-body text- center">
+                                
+                                
+                              </div>
+                            </div> 
+                            </div>
+                            </div>
+                          </section>
+                          <!--card 6-->
+                          
+
+<section class="py-6  container" >
+            
+                          <div class="row g-0">
+                            <div class="col-lg-6 col-md-6">
+                            <div class="card" ">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaifZNqLHSQUjCV5KtjqqpmvCWQRLeNMBr3w&s" class="card-img-top" alt="...">
+                              <div class="card-body text-center">
+                                
+                                
+                              </div>
+                            </div> 
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                              <div class="card">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjKvDCVfz-_0-H02S7Laz9QB2RmDOTnB2Hppy1vSvXfwaO0gGWYxW_0feHrhITqMSmnk&usqp=CAU" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                  
+                                 
+                                </div>
+                              </div> 
+                              </div>
+                              </div>
+                              </section>
+
+                             
+
+
+          </main>
+          <footer class="foot">
+            <img src="data:image/png;base64,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" alt="Bootstrap" width="100" height="100">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <!-- Left -->
+              <div class="me-5 d-none d-lg-block">
+                <span>Explore more:</span>
+              </div>
+             
+           
+                      
+                  
+                  
+          
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Shop footwear
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Boots</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Sneakers</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Casuals</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Formals</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Slippers</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Sandles</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Safty shoes</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+          
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Company
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Jackets</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">T-shirts</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Shirts</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">sweaters</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Innerwear tops</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Shop Accessories & Bags
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Handbags</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Socks</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Fanny bags</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Shoe care</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Trolly bags</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact us</h6>
+                    <p><i class="fas fa-home me-3"></i> Need some more help? Get in touch with us and we’ll be</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      care@woodlandworldwide.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> Woodland Customer Service Reps are available for inquiries Monday to Friday from 10AM to 6PM.</p>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+              Copyright 2024, Woodland (Aero Club) Private Limited
+              
+            </div>
+          </footer>
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

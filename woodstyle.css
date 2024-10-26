@@ -1,0 +1,35 @@
+.navbar-light{
+    color:green;
+}
+img{
+    position: sticky;
+  top: 0;
+  overflow: hidden;
+
+  .card{
+    height:100px;
+    
+ 
+  }
+}
+.card-wrapper{
+  padding:0;
+}
+
+.card-text{
+  max-width: 100%;
+}
+.card2{
+  padding=0;
+  
+}
+.card-wrapper{
+  
+}
+.foot{
+  background-color:rgb(53, 114, 47);
+  padding:70px;
+  color:white;
+  display:0;
+  margin:0;
+}
